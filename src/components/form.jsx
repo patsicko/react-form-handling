@@ -33,7 +33,8 @@ const handleSubmit=(e)=>{
 
   return (
 
-    <div>
+    <div className='form'>
+      <h1>Login</h1>
    <form className='container-sm m-5' onSubmit={handleSubmit}>
     <div className="form-group "><label htmlFor="firstName">First name</label><input type="text" value={firstName}  onChange={handleFirstName} id="firstName" className="form-control" /></div>
     <div className="form-group"><label htmlFor="lastName">Last name</label><input type="text" value={lastName}  onChange={handleLastName} id="lastName" className="form-control" /></div>
