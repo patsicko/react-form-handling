@@ -39,7 +39,7 @@ const handleSubmit=(e)=>{
     <div className="form-group"><label htmlFor="lastName">Last name</label><input type="text" value={lastName}  onChange={handleLastName} id="lastName" className="form-control" /></div>
     <div className="form-group"><label htmlFor="email">Email</label><input type="text" value={email} onChange={handleEmail} id="email" className="form-control" /></div>
     <div className="form-group"><label htmlFor="password">Password</label><input type="text" value={password} onChange={handlePassword} id="password" className="form-control" /></div> <br /><br />
-   <button className='btn btn-sm bg-success btn-primary '  type="submit">submit</button>
+   <button className='btn btn-sm  btn-primary '  type="submit">submit</button>
    </form>
         
     </div>
