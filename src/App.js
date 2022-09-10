@@ -1,11 +1,11 @@
 
 import './App.css';
-import MyForm from './components/form';
+import Table from './components/Table';
 
 function App() {
   return (
    <>
-   <MyForm/>
+   <Table/>
    </>
   );
 }
